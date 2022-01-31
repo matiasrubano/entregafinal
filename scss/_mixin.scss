@@ -1,0 +1,21 @@
+@mixin servicios {
+        
+        position:relative;
+        
+        padding:42px 32px;
+        
+        clip-path: circle(5% at 95% 11%);
+        transition: all ease-in-out .3s;
+        background-color:#ffffff;
+    }
+    @mixin infoicon {
+        
+            position:absolute;
+            
+            top:10px;
+            right:28px;
+            
+            font-size:1.4em;
+            color:#000000;
+            transition:ease-out .3s;
+          }
