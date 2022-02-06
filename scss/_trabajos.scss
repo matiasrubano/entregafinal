@@ -1,0 +1,86 @@
+.contenedor{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+
+}
+
+.contenedor-trabajos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.trabajo1{
+    background-image: url(../img/fiat.png);
+    border-radius: 10px;
+    min-height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-position:center center;
+}
+
+.trabajo2{
+    background-image: url(../img/nike.png);
+    border-radius: 10px;
+    min-height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-position:center center;
+}
+
+.trabajo3{
+    background-image: url(../img/audi.png);
+    border-radius: 10px;
+    min-height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-position:center center;
+}
+
+.trabajo4{
+    background-image: url(../img/peugeot.png);
+    border-radius: 10px;
+    min-height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-position:center center;
+}
+
+.trabajo5{
+    background-image: url(../img/salta.png);
+    border-radius: 10px;
+    min-height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-position:center center;
+}
+
+.trabajo6{
+    background-image: url(../img/cocacola.png);
+    border-radius: 10px;
+    min-height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-position:center center;
+}
+
+.aside{
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: $hover;
+}
+
+.textos{
+    align-self: start;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.btn_trabajos{
+    margin-top: 100px;
+}
