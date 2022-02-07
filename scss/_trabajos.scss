@@ -12,75 +12,63 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+    
 }
+
+
 .trabajo1{
     background-image: url(../img/fiat.png);
-    border-radius: 10px;
-    min-height: 200px;
-    overflow: hidden;
-    background-size: cover;
-    background-position:center center;
+    @include trabajos;
 }
 
 .trabajo2{
     background-image: url(../img/nike.png);
-    border-radius: 10px;
-    min-height: 200px;
-    overflow: hidden;
-    background-size: cover;
-    background-position:center center;
+    @include trabajos;
 }
 
 .trabajo3{
     background-image: url(../img/audi.png);
-    border-radius: 10px;
-    min-height: 200px;
-    overflow: hidden;
-    background-size: cover;
-    background-position:center center;
+    @include trabajos;
 }
 
 .trabajo4{
     background-image: url(../img/peugeot.png);
-    border-radius: 10px;
-    min-height: 200px;
-    overflow: hidden;
-    background-size: cover;
-    background-position:center center;
+    @include trabajos;
 }
 
 .trabajo5{
     background-image: url(../img/salta.png);
-    border-radius: 10px;
-    min-height: 200px;
-    overflow: hidden;
-    background-size: cover;
-    background-position:center center;
+    @include trabajos;
 }
 
 .trabajo6{
     background-image: url(../img/cocacola.png);
-    border-radius: 10px;
-    min-height: 200px;
-    overflow: hidden;
-    background-size: cover;
-    background-position:center center;
+    @include trabajos;
 }
 
+.textos{
+    background-color: $primary;
+    text-align: center;
+    h3{
+        font-weight: bolder;
+    }
+    p{
+        font-weight: bold;
+    }
+}
 .aside{
     border-radius: 10px;
     text-align: center;
     padding: 20px;
     background-color: $hover;
+    
 }
 
-.textos{
-    align-self: start;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px auto;
-}
-
-.btn_trabajos{
-    margin-top: 100px;
+.imagenes_respaldan{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 3fr;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

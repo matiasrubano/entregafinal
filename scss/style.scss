@@ -18,6 +18,8 @@ $success: $terciario;
 $font-family-sans-serif: $mifuente;
 $nav-link-hover-color: $hover;
 
+////Importe el scss de las secciones (el de footer esta en _index)
+
 @import "./reset";
 @import "../libs/boostrap/scss/bootstrap";
 @import "../libs/boostrap/scss/bootstrap-grid.scss";
@@ -28,7 +30,7 @@ $nav-link-hover-color: $hover;
 
 
 
-
+////////Estilos Generales y MediaQuerries (solo para Mobile)
 
 .text_penguin{
   letter-spacing: 0.1rem;
@@ -39,7 +41,15 @@ $nav-link-hover-color: $hover;
   text-decoration: none;
 }
 
-@media (max-width:500px) {
+@media screen and (max-width: 500px) {
+  .contenedor{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+  }
+  .contenedor-trabajos{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+  }
   .tarjeta_wrap{
     width: 100%;
   }
